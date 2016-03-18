@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'oregonregular';
+  src: url('oregon-font/oregon-webfont.eot');
+  src: url('oregon-font/oregon-webfont.eot?#iefix') format('embedded-opentype'), url('oregon-font/oregon-webfont.woff2') format('woff2'), url('oregon-font/oregon-webfont.woff') format('woff'), url('oregon-font/oregon-webfont.ttf') format('truetype'), url('oregon-font/oregon-webfont.svg#oregonregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  background-image: url("background.jpg");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.header {
+  display: flex;
+  margin: 20px;
+}
+.header div {
+  flex: 1;
+  text-align: center;
+  font: 1.4em 'oregonregular', sans-serif;
+}
+.header div:first-child {
+  text-align: left;
+}
+.header div:last-child {
+  text-align: right;
+}
+/*
+.header {
+  display: flex;
+  margin: 20px;
+}
+.header div {
+  flex: 1;
+  text-align: center;
+  font: 1.4em 'oregonregular', sans-serif;
+}
+.header div:first-child {
+  text-align: left;
+}
+.header div:last-child {
+  text-align: right;
+}
+*/
