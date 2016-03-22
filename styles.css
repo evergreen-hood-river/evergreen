@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* CSS Document */
 
 @font-face {
@@ -10,11 +11,25 @@
 }
 body {
   margin: 0;
-  background-image: url("background.jpg");
+  position: fixed;
+  width: 100%;
+  background-image: url("img/background.jpg");
   background-size: 100% 100%;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+h1, h2, .header div {
+  font: 1.4em 'oregonregular', sans-serif;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
 }
 .header {
   display: flex;
@@ -23,7 +38,7 @@ body {
 .header div {
   flex: 1;
   text-align: center;
-  font: 1.4em 'oregonregular', sans-serif;
+  color: #505050;
 }
 .header div:first-child {
   text-align: left;
@@ -31,20 +46,29 @@ body {
 .header div:last-child {
   text-align: right;
 }
-/*
-.header {
+.spacer {
   display: flex;
-  margin: 20px;
-}
-.header div {
   flex: 1;
+}
+.logo {
+  max-width: 90vw;
+  max-height: 45vh;
+  margin: 0 auto;
+}
+.footer {
   text-align: center;
-  font: 1.4em 'oregonregular', sans-serif;
+  margin-bottom: 20px;
 }
-.header div:first-child {
-  text-align: left;
+.mailing-list {
+  background-image: url("img/border.svg");
+  background-size: 100% 100%;
+  padding: 9px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  opacity: .8;
 }
-.header div:last-child {
-  text-align: right;
+.social-icons img {
+  width: 30px;
+  margin: 10px;
+  opacity: .8;
 }
-*/
