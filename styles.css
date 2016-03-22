@@ -31,6 +31,11 @@ h1, h2, .header div {
 h1 {
   font-size: 2.5em;
 }
+
+a {
+  text-decoration: none;
+}
+
 .header {
   display: flex;
   margin: 20px;
@@ -59,16 +64,20 @@ h1 {
   text-align: center;
   margin-bottom: 20px;
 }
+.footer :not(h1) {
+opacity: .9;
+}
+.mailing-list:hover, .social-icons img:hover {
+opacity: 1;
+}
 .mailing-list {
   background-image: url("img/border.svg");
   background-size: 100% 100%;
   padding: 9px;
   margin-top: 50px;
   margin-bottom: 10px;
-  opacity: .8;
 }
 .social-icons img {
   width: 30px;
   margin: 10px;
-  opacity: .8;
 }
