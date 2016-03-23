@@ -18,31 +18,31 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  text-align: center;
 }
 h1, h2, .header div {
   font: 1.4em 'oregonregular', sans-serif;
   color: white;
   margin: 0;
 }
-
 h1 {
   font-size: 2.5em;
+  font-size: 5vh;
+  /*text-shadow: 2px 2px 4px #505050;*/
 }
-
 a {
   text-decoration: none;
 }
-
 .header {
   display: flex;
   margin: 20px;
 }
 .header div {
   flex: 1;
-  text-align: center;
   color: #505050;
 }
 .header div:first-child {
@@ -53,31 +53,39 @@ a {
 }
 .spacer {
   display: flex;
+  flex: 2;
+}
+.spacer-2 {
+  display: flex;
   flex: 1;
 }
 .logo {
   max-width: 90vw;
   max-height: 45vh;
   margin: 0 auto;
+  filter: drop-shadow(1px 1px 6px rgba(80, 80, 80, 0.2));
 }
 .footer {
   text-align: center;
   margin-bottom: 20px;
 }
-.footer :not(h1) {
-opacity: .9;
+.footer:not(h1) {
+  opacity: .9;
 }
 .mailing-list:hover, .social-icons img:hover {
-opacity: 1;
+  opacity: 1;
 }
 .mailing-list {
   background-image: url("img/border.svg");
-  background-size: 100% 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 9px;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   margin-bottom: 10px;
 }
-.social-icons img {
+.social-icons img, .social-icons svg {
   width: 30px;
   margin: 10px;
+  fill: none;
 }
