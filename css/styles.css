@@ -1,11 +1,9 @@
-@charset "UTF-8";
-
 /* CSS Document */
 
 @font-face {
   font-family: 'oregonregular';
-  src: url('oregon-font/oregon-webfont.eot');
-  src: url('oregon-font/oregon-webfont.eot?#iefix') format('embedded-opentype'), url('oregon-font/oregon-webfont.woff2') format('woff2'), url('oregon-font/oregon-webfont.woff') format('woff'), url('oregon-font/oregon-webfont.ttf') format('truetype'), url('oregon-font/oregon-webfont.svg#oregonregular') format('svg');
+  src: url('../oregon-font/oregon-webfont.eot');
+  src: url('../oregon-font/oregon-webfont.eot?#iefix') format('embedded-opentype'), url('../oregon-font/oregon-webfont.woff2') format('woff2'), url('../oregon-font/oregon-webfont.woff') format('woff'), url('../oregon-font/oregon-webfont.ttf') format('truetype'), url('../oregon-font/oregon-webfont.svg#oregonregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,7 +11,7 @@ body {
   margin: 0;
   position: fixed;
   width: 100%;
-  background-image: url("img/background.jpg");
+  background-image: url("../img/background.jpg");
   background-size: 100% 100%;
   background-size: cover;
   background-attachment: fixed;
@@ -63,7 +61,7 @@ a {
   max-width: 90vw;
   max-height: 45vh;
   margin: 0 auto;
-  filter: drop-shadow(1px 1px 6px rgba(80, 80, 80, 0.2));
+  filter: drop-shadow(1px 1px 6px rgba(80, 80, 80, 0.1));
 }
 .footer {
   text-align: center;
@@ -76,7 +74,7 @@ a {
   opacity: 1;
 }
 .mailing-list {
-  background-image: url("img/border.svg");
+  background-image: url("../img/border.svg");
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
