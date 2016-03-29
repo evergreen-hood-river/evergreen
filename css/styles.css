@@ -46,6 +46,10 @@ a {
   flex: 1;
   color: #505050;
 }
+.header div a {
+  color: #505050;
+  text-decoration: underline;
+}
 .header .left_third {
   text-align: left;
 }
@@ -68,10 +72,7 @@ a {
 }
 .footer {
   text-align: center;
-  margin-bottom: 20px;
-}
-.footer:not(h1) {
-  opacity: .9;
+  /*margin-bottom: 20px;*/
 }
 .mailing-list:hover, .social-icons img:hover {
   opacity: 1;
@@ -93,12 +94,17 @@ a {
   margin: 10px;
   fill: none;
 }
-
 .small-screen {
   display: none;
 }
 @media screen and (max-width: 800px) {
+  .small-screen {
+    display: flex;
+  }
   .large-screen {
     display: none;
+  }
+  .header div {
+    font-size: 1.3em;
   }
 }
