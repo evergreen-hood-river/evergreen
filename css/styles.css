@@ -22,15 +22,18 @@ body {
   flex-direction: column;
   text-align: center;
 }
+.old-back {
+  background-image: url("../img/background.jpg");
+}
 h1 {
   font: 2.5em 'oregonregular', sans-serif;
-  font-size: 5vh;
+  font-size: 4vh;
   color: white;
   margin: 0;
   text-shadow: 1px 1px 6px rgba(80, 80, 80, 0.2);
 }
 h2, .header div {
-  font: 1.4em 'oregonregular', sans-serif;
+  font: 1.3em 'oregonregular', sans-serif;
   color: white;
   margin: 0;
 }
@@ -44,7 +47,7 @@ a {
 }
 .header div {
   flex: 1;
-  color: #505050;
+  color: white;/*#505050;*/
 }
 .header div a {
   color: #505050;
@@ -58,15 +61,15 @@ a {
 }
 .spacer {
   display: flex;
-  flex: 2;
+  flex: 3;
 }
 .spacer-2 {
   display: flex;
   flex: 1;
 }
 .logo {
-  max-width: 90vw;
-  max-height: 45vh;
+  max-width: 70vw;
+  max-height: 35vh;
   margin: 0 auto;
   filter: drop-shadow(1px 1px 6px rgba(80, 80, 80, 0.1));
 }
@@ -82,17 +85,17 @@ a {
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 9px;
+  padding: 7px;
   /*margin-top: 50px;*/
-  /*margin-bottom: 10px;*/
+  /*margin-bottom: 15px;*/
 }
 .social-icons {
-  display: none;
+  /*display: none;*/
 }
 .social-icons img, .social-icons svg {
-  width: 30px;
-  margin: 10px;
-  fill: none;
+  width: 25px;
+  margin: 15px;
+  fill: white;
 }
 .small-screen {
   display: none;
