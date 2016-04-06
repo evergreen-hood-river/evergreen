@@ -82,7 +82,7 @@ a {
   text-align: center;
   /*margin-bottom: 20px;*/
 }
-.mailing-list:hover, .social-icons img:hover {
+.mailing-list:hover, .icons img:hover {
   opacity: 1;
 }
 .mailing-list {
@@ -94,10 +94,10 @@ a {
   /*margin-top: 50px;*/
   /*margin-bottom: 15px;*/
 }
-.social-icons {
+.icons {
   /*display: none;*/
 }
-.social-icons img, .social-icons svg {
+.icons img, .icons svg {
   width: 25px;
   margin: 15px;
   fill: white;
