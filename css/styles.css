@@ -17,14 +17,18 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
   height: 100vh;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
-}
-.old-back {
-  background-image: url("../img/background.jpg");
 }
 h1 {
   font: 2.5em 'oregonregular', sans-serif;
@@ -42,12 +46,18 @@ a {
   text-decoration: none;
 }
 .header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin: 20px;
   margin-bottom: 0;
 }
 .header div {
-  flex: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   color: white;/*#505050;*/
 }
 .header div a {
@@ -61,12 +71,24 @@ a {
   text-align: right;
 }
 .spacer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex: 3;
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
 }
 .spacer-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 .logo {
   display: block;
@@ -94,9 +116,6 @@ a {
   /*margin-top: 50px;*/
   /*margin-bottom: 15px;*/
 }
-.icons {
-  /*display: none;*/
-}
 .icons img, .icons svg {
   width: 25px;
   margin: 15px;
@@ -107,6 +126,9 @@ a {
 }
 @media screen and (max-width: 700px) {
   .small-screen {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
   }
   .large-screen {
@@ -116,5 +138,20 @@ a {
     font: 1em 'oregonregular', sans-serif;
     color: white;
     margin: 0;
+  }
+  .header {
+    margin: 10px;
+    margin-bottom: 0;
+  }
+  .icons {
+    margin-bottom: 60px;
+  }
+  .icons img, .icons svg {
+    width: 20px;
+    margin: 10px;
+    fill: white;
+  }
+  .mailing-list {
+    padding: 5px;
   }
 }
