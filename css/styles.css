@@ -51,7 +51,7 @@ a {
   color: white;/*#505050;*/
 }
 .header div a {
-  color: #505050;
+  color: white;/*#505050;*/
   text-decoration: underline;
 }
 .header div:first-child {
