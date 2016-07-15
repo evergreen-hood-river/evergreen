@@ -23,6 +23,7 @@ body {
   display: flex;
   min-height: 100vh;
   height: 100vh;
+  /*min-width: 440px;*/
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -102,9 +103,9 @@ a {
 }
 .logo {
   display: block;
-  max-height: 40vh;
-  max-width: 80vw;
-  width: auto;
+  /*max-height: 40vh;
+  max-width: 80vw;*/
+  height: 40vmin;
   margin: 0 auto;
   -webkit-filter: drop-shadow(1px 1px 6px rgba(80, 80, 80, 0.15));
           filter: drop-shadow(1px 1px 6px rgba(80, 80, 80, 0.15));
@@ -133,9 +134,9 @@ a {
   -webkit-filter: drop-shadow(-1px -1px 5px rgba(40, 40, 40, .75)) brightness(90%);
           filter: drop-shadow(-1px -1px 5px rgba(40, 40, 40, .75)) brightness(90%);
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   h2 {
-    font: 1em 'oregonregular', sans-serif;
+    font: 1.1em 'oregonregular', sans-serif;
     color: white;
     margin: 0;
   }
@@ -143,15 +144,19 @@ a {
     margin: 10px auto;
     margin-bottom: 0;
   }
+  .logo {
+    height: auto;
+    width: 85%;
+  }
   .icons {
     margin-bottom: 60px;
   }
-  .icons img, .icons svg {
-    width: 20px;
-    margin: 10px;
+  /*.icons img, .icons svg {
+    width: 25px;
+    margin: 15px;
     fill: white;
-  }
+  }*/
   .mailing-list {
-    padding: 5px;
+  padding: .6em;
   }
 }
