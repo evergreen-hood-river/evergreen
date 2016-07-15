@@ -17,15 +17,21 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: bottom;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
   height: 100vh;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
 }
 h1 {
   font: 2em 'oregonregular', sans-serif;
-  /*font-size: 4vh;*/
   color: white;
   margin: 0;
   text-shadow: 1px 1px 6px rgba(80, 80, 80, 0.2);
@@ -34,11 +40,15 @@ h2 {
   font: 1.2em 'oregonregular', sans-serif;
   color: white;
   margin: 0;
+  letter-spacing: .07em;
 }
 a {
   text-decoration: none;
 }
 .header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin: 20px auto;
   padding: 0 20px;
@@ -46,17 +56,18 @@ a {
   max-width: 800px;
 }
 .header h2 {
-  flex: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   color: white;
   text-shadow: 1px 1px 6px rgba(80, 80, 80, 0.2);
 }
 .header:hover h2{
-  text-shadow: 2px 2px 3px rgba(80, 80, 80, 0.5);
+  text-shadow: 1px 1px 3px rgba(80, 80, 80, 0.5);
 }
-.header div a {
-  color: white;
-  text-decoration: underline;
-  text-shadow: 1px 1px 6px rgba(80, 80, 80, 0.2);
+.header:active h2{
+  text-shadow: -1px -1px 3px rgba(80, 80, 80, 0.2);
 }
 .header h2:first-child {
   text-align: left;
@@ -64,23 +75,39 @@ a {
 .header h2:last-child {
   text-align: right;
 }
+.header a {
+  color: white;
+  text-decoration: underline;
+  text-shadow: 1px 1px 6px rgba(80, 80, 80, 0.2);
+}
 .spacer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex: 3;
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
 }
 .spacer-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 .logo {
   display: block;
   max-height: 40vh;
   max-width: 80vw;
-  /*height: 40vh;*/
   width: auto;
   margin: 0 auto;
-  /*-webkit-filter: drop-shadow(2px 2px 6px rgba(80, 80, 80, 0.2));*/
-  filter: drop-shadow(1px 1px 6px rgba(80, 80, 80, 0.15));
+  -webkit-filter: drop-shadow(1px 1px 6px rgba(80, 80, 80, 0.15));
+          filter: drop-shadow(1px 1px 6px rgba(80, 80, 80, 0.15));
 }
 .footer {
   text-align: center;
@@ -91,9 +118,7 @@ a {
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 8px;
-  /*margin-top: 50px;*/
-  /*margin-bottom: 15px;*/
+  padding: .7em;
 }
 .icons img, .icons svg {
   width: 25px;
@@ -101,13 +126,15 @@ a {
   fill: white;
 }
 .icons img:hover, .icons svg:hover, .mailing-list:hover {
-  filter: drop-shadow(2px 2px 3px rgba(40, 40, 40, .75));
+  -webkit-filter: drop-shadow(2px 2px 3px rgba(40, 40, 40, .75));
+          filter: drop-shadow(2px 2px 3px rgba(40, 40, 40, .75));
 }
 .icons img:active, .icons svg:active, .mailing-list:active {
-  filter: drop-shadow(-1px -1px 5px rgba(40, 40, 40, .75)) brightness(90%);
+  -webkit-filter: drop-shadow(-1px -1px 5px rgba(40, 40, 40, .75)) brightness(90%);
+          filter: drop-shadow(-1px -1px 5px rgba(40, 40, 40, .75)) brightness(90%);
 }
 @media screen and (max-width: 700px) {
-  h2, .header div {
+  h2 {
     font: 1em 'oregonregular', sans-serif;
     color: white;
     margin: 0;
