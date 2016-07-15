@@ -61,14 +61,15 @@ a {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  color: white;
-  text-shadow: 1px 1px 6px rgba(80, 80, 80, 0.2);
+  color: rgba(255, 255, 255, 0.85);
 }
 .header:hover h2{
-  text-shadow: 1px 1px 3px rgba(80, 80, 80, 0.5);
+  text-shadow: 1px 1px 3px rgba(80, 80, 80, 0.3);
+  color: white;
 }
 .header:active h2{
-  text-shadow: -1px -1px 3px rgba(80, 80, 80, 0.2);
+  text-shadow: -1px -1px 3px rgba(80, 80, 80, 0.3);
+  color: rgb(240, 240, 240);
 }
 .header h2:first-child {
   text-align: left;
