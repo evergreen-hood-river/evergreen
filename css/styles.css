@@ -1,9 +1,9 @@
 /* CSS Document */
 
 @font-face {
-  font-family: 'oregonregular';
-  /*src: url('../oregon-font/oregon-webfont.eot');*/
-  src: url('../oregon-font/oregon-webfont.eot?#iefix') format('embedded-opentype'), url('../oregon-font/oregon-webfont.woff2') format('woff2'), url('../oregon-font/oregon-webfont.woff') format('woff'), url('../oregon-font/oregon-webfont.ttf') format('truetype'), url('../oregon-font/oregon-webfont.svg#oregonregular') format('svg');
+  font-family: 'oregon-webfont';
+  src: url('../oregon-font/oregon-webfont.eot');
+  src: url('../oregon-font/oregon-webfont.eot?#iefix') format('embedded-opentype'), url('../oregon-font/oregon-webfont.woff2') format('woff2'), url('../oregon-font/oregon-webfont.woff') format('woff'), url('../oregon-font/oregon-webfont.ttf') format('truetype'), url('../oregon-font/oregon-webfont.svg#oregon-webfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,14 +36,14 @@ body {
 }
 
 h1 {
-  font: 2em 'oregonregular', sans-serif;
+  font: 2em 'oregon-webfont', sans-serif;
   color: white;
   margin: 0;
   text-shadow: 1px 1px 6px rgba(80, 80, 80, 0.2);
 }
 
 h2, h3 {
-  font: 1.2em 'oregonregular', sans-serif;
+  font: 1.2em 'oregon-webfont', sans-serif;
   color: white;
   margin: 0;
   letter-spacing: .07em;
