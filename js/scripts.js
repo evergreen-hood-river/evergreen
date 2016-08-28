@@ -1,8 +1,4 @@
-$(function() {
-    // $(".logo").click(function() {
-    //     $(".logo").toggle();
-    // });
-    // $("body").click(function() {
-    //     $("body").toggleClass("old-back");
-    // });
-});
+var fixed = document.body;
+fixed.addEventListener('touchmove', function (e) {
+  e.preventDefault();
+}, false);
