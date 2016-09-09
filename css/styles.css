@@ -33,13 +33,17 @@ body {
 }
 
 h1 {
+  display: none;
+}
+
+h3 {
   font: 2em 'oregonregular', sans-serif;
   color: white;
   margin: 0;
   text-shadow: 1px 1px 6px rgba(80, 80, 80, 0.2);
 }
 
-h2, h3 {
+h2, h4 {
   font: 1.2em 'oregonregular', sans-serif;
   color: white;
   margin: 0;
@@ -147,14 +151,14 @@ a {
 }
 
 @media screen and (max-width: 560px) {
-  h1 {
+  h3 {
     font-size: 5vw;
   }
   h2 {
     font-size: 3.6vw;
     margin: 0;
   }
-  h3 {
+  h4 {
     font-size: 4vw;
     /*font-size: calc(2vw + .5em);*/
   }
