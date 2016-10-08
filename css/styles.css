@@ -41,6 +41,7 @@ h3 {
   color: white;
   margin: 0;
   text-shadow: 1px 1px 6px rgba(80, 80, 80, 0.2);
+  letter-spacing: .1em
 }
 
 h2, h4 {
