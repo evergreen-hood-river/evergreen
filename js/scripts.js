@@ -1,4 +1,3 @@
-
 // prevent background dragging on mobile
 var fixed = document.body;
 fixed.addEventListener('touchmove', function (e) {
@@ -13,4 +12,11 @@ function showMailingPopUp() {
 document.getElementById("open-popup").onclick = function(e) {
   e.preventDefault();
   showMailingPopUp()
+};
+
+// enter/leave buttons
+document.getElementById("enter-btn").onclick = function(e) {
+  e.preventDefault();
+  document.getElementsByClassName("over-21")[0].style.display = "none";
+  document.getElementsByClassName("main-content")[0].style.display = "flex";
 };
