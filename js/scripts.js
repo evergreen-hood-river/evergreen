@@ -19,6 +19,6 @@ document.getElementById("open-popup").onclick = function(e) {
 // enter/leave buttons
 document.getElementById("enter-btn").onclick = function(e) {
   e.preventDefault();
-  document.getElementsByClassName("over-21")[0].style.display = "none";
-  document.getElementsByClassName("main-content")[0].style.display = "flex";
+  document.getElementsByClassName("over-21-wrapper")[0].style.display = "none";
+  document.getElementsByClassName("main-content")[0].style.opacity = 1;
 };
