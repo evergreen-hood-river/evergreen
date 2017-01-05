@@ -1,8 +1,8 @@
 // prevent background dragging on mobile
-var fixed = document.body;
-fixed.addEventListener('touchmove', function(e) {
-  e.preventDefault();
-}, false);
+// var fixed = document.body;
+// fixed.addEventListener('touchmove', function(e) {
+//   e.preventDefault();
+// }, false);
 
 // set up mailing list button
 function showMailingPopUp() {

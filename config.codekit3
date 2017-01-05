@@ -125,9 +125,25 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/buds.jpg": {
+		"ft": 16384,
+		"iS": 111229,
+		"oA": 0,
+		"oAP": "\/img\/buds.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/building.jpg": {
+		"ft": 16384,
+		"iS": 98212,
+		"oA": 0,
+		"oAP": "\/img\/building.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/logo-badge.png": {
 		"ft": 32768,
-		"iS": 10840,
+		"iS": 9895,
 		"oA": 0,
 		"oAP": "\/img\/.logo-badge~imageoptim.png",
 		"oF": 0,
@@ -245,6 +261,12 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/menu.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/menu.html",
+		"oF": 0
+		},
 	"\/oregon-font\/generator_config.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -340,6 +362,12 @@
 		"oAP": "\/thumbnail.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/visit.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/visit.html",
+		"oF": 0
 		}
 	},
 "hooks": [
