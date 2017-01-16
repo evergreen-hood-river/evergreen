@@ -96,15 +96,37 @@ h3 {
   color: #4E4E4E;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 header {
   height: 220px;
   position: relative;
-  background: url("../img/about-background.jpg") no-repeat center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   padding: 10px;
+}
+
+#about header {
+  background-image: url("../img/about-background.jpg");
+}
+
+#menu header {
+  background-image: url("../img/menu-background.jpg");
+}
+
+#visit header {
+  background-image: url("../img/visit-background.jpg");
 }
 
 .flower {

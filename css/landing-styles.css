@@ -237,7 +237,7 @@ a {
 
 .icons img, .icons svg {
   width: 25px;
-  margin: 15px;
+  margin: 15px 10px;
   margin-bottom: 0;
   fill: white;
 }
