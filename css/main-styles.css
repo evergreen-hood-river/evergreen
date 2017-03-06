@@ -80,7 +80,6 @@ h2 {
   line-height: 1.5em;
   letter-spacing: .02em;
   margin: 1.8em 0;
-  margin-bottom: 1em;
   text-align: center;
   color: #4E4E4E;
 }
@@ -241,6 +240,12 @@ a.selected {
 .centered {
   text-align: center;
 }
+
+.row p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
 
 footer {
   /*height: 120px;*/
