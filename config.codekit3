@@ -91,6 +91,22 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/background-d copy.jpg": {
+		"ft": 16384,
+		"iS": 259083,
+		"oA": 0,
+		"oAP": "\/img\/background-d copy.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/background-d.jpg": {
+		"ft": 16384,
+		"iS": 334180,
+		"oA": 0,
+		"oAP": "\/img\/background-d.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/background.jpg": {
 		"ft": 16384,
 		"iS": 141404,
@@ -143,7 +159,7 @@
 		},
 	"\/img\/logo-badge.png": {
 		"ft": 32768,
-		"iS": 9895,
+		"iS": 10840,
 		"oA": 0,
 		"oAP": "\/img\/.logo-badge~imageoptim.png",
 		"oF": 0,
