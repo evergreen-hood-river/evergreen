@@ -11,14 +11,19 @@ function showMailingPopUp() {
   });
   document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
 }
-document.getElementById("open-popup").onclick = function(e) {
-  e.preventDefault();
-  showMailingPopUp();
-};
+
+if (document.getElementById("open-popup")) {
+  document.getElementById("open-popup").onclick = function(e) {
+    e.preventDefault();
+    showMailingPopUp();
+  };
+}
 
 // enter/leave buttons
-document.getElementById("enter-btn").onclick = function(e) {
-  e.preventDefault();
-  document.getElementsByClassName("over-21-wrapper")[0].style.display = "none";
-  document.getElementsByClassName("main-content")[0].style.opacity = 1;
-};
+if (document.getElementById("enter-btn")) {
+  document.getElementById("enter-btn").onclick = function(e) {
+    e.preventDefault();
+    document.getElementsByClassName("over-21-wrapper")[0].style.display = "none";
+    document.getElementsByClassName("main-content")[0].style.opacity = 1;
+  };
+}
