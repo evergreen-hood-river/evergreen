@@ -37,6 +37,12 @@ body {
   width: auto !important;
   width: 450px;*/ }
 
+.mobile-nav-spacer {
+  display: none;
+  border: 0;
+  height: 1px;
+  opacity: 0; }
+
 .over-21-wrapper {
   position: absolute;
   top: 0;
@@ -223,6 +229,10 @@ a {
 .icons img:active, .icons svg:active, .mailing-list:active {
   -webkit-filter: drop-shadow(-1px -1px 5px rgba(40, 40, 40, 0.5)) brightness(90%);
   filter: drop-shadow(-1px -1px 5px rgba(40, 40, 40, 0.5)) brightness(90%); }
+
+@media (max-width: 620px) {
+  .mobile-nav-spacer {
+    display: block; } }
 
 @media screen and (max-width: 560px) {
   h3 {
